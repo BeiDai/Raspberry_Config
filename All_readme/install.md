@@ -9,12 +9,13 @@
 - 键盘，显示器
 - 网线一条
 
+安装失败判断：1、SD卡的速度大小不够 2、官方系统问题 3、
+
 额外知识：
 
 - 红灯常亮表示电源稳定，给HDMI转VGA插头供电减少树莓派负担
 - 绿灯闪表示系统正在工作
 - 通过网线可以共享网络给树莓派，并可通过Putty，VNC控制树莓派([Ubuntu](https://www.embbnux.com/2014/03/24/on_ubuntu_use_vnc_connect_raspberry/)、[Windows](http://blog.csdn.net/github_38111866/article/details/76038665))
--
 
 软件材料：
 
@@ -37,8 +38,8 @@
 
 安装方式(ubuntu-mate-16.04.2-desktop-armhf-raspberry-pi)
 
-- 第一次：利用Win32DiskImager安装镜像到SD卡大概20分钟，安装过程就像安装Ubuntu一样
-- 
+- 第一次：利用Win32DiskImager安装镜像到SD卡大概20分钟，安装过程就像安装Ubuntu一样，安装成功，只是系统运行有点卡。
+
 
 NOOBS初始化报错：
 
