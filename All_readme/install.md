@@ -9,7 +9,8 @@
 - 键盘，显示器
 - 网线一条
 
-安装失败判断：1、SD卡的速度大小不够 2、官方系统问题 3、
+安装失败判断：1、SD卡的速度大小不够 2、官方系统问题 3、树莓派的问题
+
 
 额外知识：
 
@@ -39,16 +40,20 @@
 安装方式(ubuntu-mate-16.04.2-desktop-armhf-raspberry-pi)
 
 - 第一次：利用Win32DiskImager安装镜像到SD卡大概20分钟，安装过程就像安装Ubuntu一样，安装成功，只是系统运行有点卡。
+不！！安装再次失败，重启后卡在加载系统内核处，进不了桌面系统。
 
+安装方式(sd卡引导，USB系统)
+
+-
 
 NOOBS初始化报错：
 
-![initError](/install/bug3.jpg)
+![initError](/install/Bug3.jpg)
 
 Boot分区未挂载：
 
-![BootError](/install/bug2.jpg)
+![BootError](/install/Bug2.jpg)
 
 raspbian初始化报错：
 
-![initErrot](/install/bug1.jpg)
+![initErrot](/install/Bug1.jpg)
